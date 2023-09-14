@@ -1,16 +1,13 @@
 import requests
 
-url = "https://api.chucknorris.io/jokes/random"
+url = "https://api.kanye.rest/"
 
 response = requests.get(url)
 
 if response.status_code == 200:
-    fatos = response.json()
-    for chuck in fatos['categories']:
-        print('Fatos sobre Chuck:', chuck['value'])
+    
+    data = response.json()
+    frase = data['quote']
+    print("Frase de Kanye West:", frase)
 else:
     print("Erro na solicitação:", response.status_code)
-    
-    {
-
-}
