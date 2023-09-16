@@ -9,5 +9,5 @@ Para está avaliação, iremos testar os nossos conhecimentos sobre a aula de Co
 <h2>Escolha da API</h2>
 No meu caso eu escolhi fazer o consumo de duas API's, sendo elas a do Chuck Norris Jokes API e Kenye REST. Quando inicializadas enviam frases de maneira aleatória, a do Chuck são frases de piada ou relacionadas a vida dele e a do Kenye são frases ditas por ele.
 
-<h3>Como usar o código</h3>
+<h2>Como usar o código</h2>
 Primeiramente você terá que fazer o Download do Python, depois dentro do prompt de comando da sua máquina, irá instalar o requeriments.txt por meio do pip (pip install -r requeriments.txt), no prompt de comando. Você também tera que criar uma máquina virtual, instalando o VENV, e fazer a inicialização. Depois é só iniciar o script que você terá algumas piadinhas do Chuck ou algumas filosofias de vida do Kenye.
